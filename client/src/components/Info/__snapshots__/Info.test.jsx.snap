@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches a snapshot 1`] = `
+<div
+  className="Info"
+>
+  <h3>
+    What kind of magic is this?
+  </h3>
+  <p>
+    This is an experiment with Twitter data mining and its analysis. Please don't take the output too seriously.
+  </p>
+  <p>
+    Basically, there's an IFTTT applet triggering a web hook action which sends all the tweets in London to the particular Webtask URL. Webtask then serializes the tweet data and stores it in an ElasticSearch index.
+  </p>
+  <p>
+    Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contact text analyzation service and updates data in ElasticSearch.
+  </p>
+  <p>
+    Finally, there's a Webtask serving as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
+  </p>
+  <h4>
+    Technologies used:
+  </h4>
+  <p>
+    <a
+      href="http://ifttt.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      IFTTT
+    </a>
+  </p>
+  <p>
+    <a
+      href="https://webtask.io/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Webtask
+    </a>
+  </p>
+  <p>
+    <a
+      href="https://www.elastic.co/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      ElasticSearch
+    </a>
+  </p>
+  <p>
+    <a
+      href="https://uclassify.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      uClassify
+    </a>
+  </p>
+  <p>
+    <a
+      href="https://facebook.github.io/react/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      React
+    </a>
+  </p>
+  <p>
+    <a
+      href="https://d3js.org/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      D3.js
+    </a>
+  </p>
+  <br />
+  <p>
+    [ 
+    <a
+      href="https://github.com/stepnivlk/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      author
+    </a>
+     ][ code ]
+  </p>
+</div>
+`;

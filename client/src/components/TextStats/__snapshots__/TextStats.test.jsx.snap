@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches a snapshot 1`] = `
+<div>
+  <span
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 20,
+        "fontWeight": "normal",
+      }
+    }
+  >
+    50
+    % 
+    Unhappy
+  </span>
+   / 
+  <span
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 30,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    50
+    % 
+    Happy
+  </span>
+</div>
+`;

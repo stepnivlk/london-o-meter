@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches a snapshot 1`] = `
+<svg
+  fontFamily="Helvetica"
+  height="90%"
+  width="100%"
+>
+  <g
+    transform="translate(50,50)"
+  >
+    <g>
+      <path
+        d="M5.617466068175438,-209.92485339990807A210,210,0,1,1,-48.02955215083016,204.4337597369639L-14.8911547298741,78.60186709494214A80,80,0,1,0,5.617466068175428,-79.80253175791415Z"
+        fill="#fff"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+    </g>
+    <g
+      transform="translate(-50,-50)"
+    >
+      <circle
+        cx={25}
+        cy={30}
+        fill="black"
+        id="c"
+        r={5}
+      />
+      <circle
+        cx={75}
+        cy={30}
+        fill="black"
+        id="c"
+        r={5}
+      />
+      <g
+        transform="translate(15,65)"
+      >
+        <path
+          d="M0,0 A40,40 10 0,0 65,0"
+          fill="none"
+          stroke="black"
+          strokeWidth={5}
+        />
+      </g>
+    </g>
+  </g>
+</svg>
+`;

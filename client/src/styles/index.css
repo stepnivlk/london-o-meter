@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  height:100%;
+}
+
+#root {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #F17105;
+}
+
+html {
+  height:100%;
+}
+
+.App {
+  text-align: center;
+  background-color: #FFFEFA;
+}
+
+.Stretch {
+  height: 100%;
+}
+
+.Info {
+  text-align: center;
+  background-color: #f3e8d8;
+  height: 550px;
+  padding: 20px;
+}
+
+.Pie {
+  height: 70%
+}
+
+.App-header {
+  height: 100px;
+  padding: 20px;
+  color: #272838;
+}
+
+.App-intro {
+  font-size: large;
+}

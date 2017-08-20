@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches a snapshot 1`] = `
+<g
+  transform="translate(-50,-50)"
+>
+  <circle
+    cx={25}
+    cy={30}
+    fill="black"
+    id="c"
+    r={5}
+  />
+  <circle
+    cx={75}
+    cy={30}
+    fill="black"
+    id="c"
+    r={5}
+  />
+  <g
+    transform="translate(15,65)"
+  >
+    <path
+      d="M0,0 A40,0 10 0,0 65,0"
+      fill="none"
+      stroke="black"
+      strokeWidth={5}
+    />
+  </g>
+</g>
+`;

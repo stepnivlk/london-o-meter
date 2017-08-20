@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches a snapshot 1`] = `
+<div
+  className="App-header"
+>
+  <h2>
+    London-O-Meter
+  </h2>
+  Are Londoners happy? And more importantly, can we quantify happiness?
+</div>
+`;

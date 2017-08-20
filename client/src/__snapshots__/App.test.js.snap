@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches a snapshot 1`] = `
+<div
+  className="App Stretch"
+>
+  <div
+    className="Stretch"
+  >
+    <div
+      className="App-header"
+    >
+      <h2>
+        London-O-Meter
+      </h2>
+      Are Londoners happy? And more importantly, can we quantify happiness?
+    </div>
+    <div
+      className="Pie"
+    >
+      <svg
+        fontFamily="Helvetica"
+        height="90%"
+        width="100%"
+      >
+        <g
+          transform="translate(0,0)"
+        >
+          <g>
+            <path
+              d="M5.384603869996678,-199.92750196299463A200,200,0,1,1,-45.70869966264086,194.70674044611422L-15.12042647853628,78.55808489969176A80,80,0,1,0,5.384603869996678,-79.81858205432628Z"
+              fill="#F17105"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            />
+          </g>
+          <g>
+            <path
+              d="M-56.122822121251694,191.9641342468596A200,200,0,0,1,-5.384603869996658,-199.92750196299463L-5.384603869996688,-79.81858205432627A80,80,0,0,0,-25.53454893714712,75.81547870043715Z"
+              fill="#2E4057"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            />
+          </g>
+          <g
+            transform="translate(-50,-50)"
+          >
+            <circle
+              cx={25}
+              cy={30}
+              fill="black"
+              id="c"
+              r={5}
+            />
+            <circle
+              cx={75}
+              cy={30}
+              fill="black"
+              id="c"
+              r={5}
+            />
+            <g
+              transform="translate(15,65)"
+            >
+              <path
+                d="M0,0 A40,40 10 0,0 65,0"
+                fill="none"
+                stroke="black"
+                strokeWidth={5}
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div>
+      <span
+        style={
+          Object {
+            "color": "#2E4057",
+            "fontSize": 20,
+            "fontWeight": "normal",
+          }
+        }
+      >
+        46
+        % 
+        Unhappy
+      </span>
+       / 
+      <span
+        style={
+          Object {
+            "color": "#F17105",
+            "fontSize": 20,
+            "fontWeight": "normal",
+          }
+        }
+      >
+        54
+        % 
+        Happy
+      </span>
+    </div>
+  </div>
+  <div
+    className="Info"
+  >
+    <h3>
+      What kind of magic is this?
+    </h3>
+    <p>
+      This is an experiment with Twitter data mining and its analysis. Please don't take the output too seriously.
+    </p>
+    <p>
+      Basically, there's an IFTTT applet triggering a web hook action which sends all the tweets in London to the particular Webtask URL. Webtask then serializes the tweet data and stores it in an ElasticSearch index.
+    </p>
+    <p>
+      Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contact text analyzation service and updates data in ElasticSearch.
+    </p>
+    <p>
+      Finally, there's a Webtask serving as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
+    </p>
+    <h4>
+      Technologies used:
+    </h4>
+    <p>
+      <a
+        href="http://ifttt.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        IFTTT
+      </a>
+    </p>
+    <p>
+      <a
+        href="https://webtask.io/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Webtask
+      </a>
+    </p>
+    <p>
+      <a
+        href="https://www.elastic.co/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ElasticSearch
+      </a>
+    </p>
+    <p>
+      <a
+        href="https://uclassify.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        uClassify
+      </a>
+    </p>
+    <p>
+      <a
+        href="https://facebook.github.io/react/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        React
+      </a>
+    </p>
+    <p>
+      <a
+        href="https://d3js.org/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        D3.js
+      </a>
+    </p>
+    <br />
+    <p>
+      [ 
+      <a
+        href="https://github.com/stepnivlk/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        author
+      </a>
+       ][ code ]
+    </p>
+  </div>
+</div>
+`;
