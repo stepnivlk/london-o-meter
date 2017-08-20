@@ -1,6 +1,6 @@
 // @flow
 
-import { colors, labels } from './constants';
+import { colors, labels, serveUrl } from './constants';
 
 type Item = {
   label: string,
@@ -24,7 +24,7 @@ const serializeData = (data: Item[]) => {
 };
 
 const fetchData = () => (
-  fetch('https://wt-b928e2a15897fa6ef812b8f9296200b7-0.run.webtask.io/serve')
+  fetch(serveUrl)
     .then(response => {
       if (response.status >= 400) {
         throw new Error('Bad response from server');

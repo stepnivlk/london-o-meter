@@ -92,7 +92,6 @@ class App extends Component<{}, State> {
             ref={(el) => { this.chartContainer = el }}
           >
             {
-              data &&
               <PieChart
                 arcs={arcs}
                 dimensions={{ width: containerWidth, height: containerHeight }}
@@ -104,7 +103,7 @@ class App extends Component<{}, State> {
             }
           </div>
           {
-            data &&
+            data.length > 0 &&
             <TextStats
               data={data}
               highlightedIndex={highlightedIndex}

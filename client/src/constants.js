@@ -13,6 +13,8 @@ const pieConfig = {
 const labels = {
   POSITIVE: 'positive',
   NEGATIVE: 'negative',
-}
+};
 
-export { colors, pieConfig, labels };
+const serveUrl = 'https://wt-b928e2a15897fa6ef812b8f9296200b7-0.run.webtask.io/serve';
+
+export { colors, pieConfig, labels, serveUrl };
