@@ -46,32 +46,14 @@ class App extends Component<{}, State> {
 
   componentDidMount() {
     this.fitParentContainer();
-    // fetchData()
-    //   .then(data => {
-    //     console.log(data)
-    //     const serializedData = serializeData(data.londonHapiness)
-    //     const arcs = pie().value(item => item.value)(serializedData)
-    //
-    //     this.setState(() => ({ data: serializedData, arcs }))
-    //   })
+    fetchData()
+      .then(data => {
+        console.log(data)
+        const serializedData = serializeData(data.londonHapiness)
+        const arcs = pie().value(item => item.value)(serializedData)
 
-    const data = {
-    "londonHapiness": [
-      {
-        "label": "positive",
-        "value": 33
-      },
-      {
-        "label": "negative",
-        "value": 28
-      }
-    ]
-    }
-
-    const serializedData = serializeData(data.londonHapiness);
-    const arcs = pie().value(item => item.value)(serializedData);
-
-    this.setState(() => ({ data: serializedData, arcs }));
+        this.setState(() => ({ data: serializedData, arcs }))
+      })
   }
 
   fitParentContainer = () => {
