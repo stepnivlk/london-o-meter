@@ -19,8 +19,8 @@ A collection of 3 Webtasks and React client which together forms Twitter data mi
 `analyze`:
 * esUrl - URL of ElasticSearch cluster
 * esIndex - Specific ElasticSearch index we want to read/write a data
-* classifyUrl
-* classifyToken
+* classifyUrl - uClassify API url
+* classifyToken - uClassify API token
 
 `serve`:
 * esUrl - URL of ElasticSearch cluster
