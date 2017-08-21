@@ -19,8 +19,8 @@ A collection of 3 Webtasks and React client which together forms Twitter data mi
 `analyze`:
 * esUrl - URL of ElasticSearch cluster
 * esIndex - Specific ElasticSearch index we want to read/write a data
-* classifyUrl
-* classifyToken
+* classifyUrl - uClassify API url
+* classifyToken - uClassify API token
 
 `serve`:
 * esUrl - URL of ElasticSearch cluster
@@ -37,6 +37,9 @@ A collection of 3 Webtasks and React client which together forms Twitter data mi
 Simple React + D3.js app
 
 ### Development
+#### Start dev server
+`yarn start`
+
 #### Run tests
 `yarn test`
 
@@ -45,3 +48,6 @@ Simple React + D3.js app
 
 ### Deployment
 Zero configuration deployment to [heroku](https://blog.heroku.com/deploying-react-with-zero-configuration)
+
+### TODO
+- [ ] SVG should be responsive to a window resize
