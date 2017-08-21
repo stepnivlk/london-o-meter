@@ -45,3 +45,6 @@ Simple React + D3.js app
 
 ### Deployment
 Zero configuration deployment to [heroku](https://blog.heroku.com/deploying-react-with-zero-configuration)
+
+### TODO
+- [ ] SVG should be responsive to a window resize
