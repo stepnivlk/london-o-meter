@@ -51,3 +51,4 @@ Zero configuration deployment to [heroku](https://blog.heroku.com/deploying-reac
 
 ### TODO
 - [ ] SVG should be responsive to a window resize
+- [ ] Change favicon & title
