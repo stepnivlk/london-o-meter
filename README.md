@@ -37,6 +37,9 @@ A collection of 3 Webtasks and React client which together forms Twitter data mi
 Simple React + D3.js app
 
 ### Development
+#### Start dev server
+`yarn start`
+
 #### Run tests
 `yarn test`
 
