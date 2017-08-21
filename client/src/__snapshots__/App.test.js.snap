@@ -26,22 +26,6 @@ exports[`matches a snapshot 1`] = `
         <g
           transform="translate(0,0)"
         >
-          <g>
-            <path
-              d="M5.384603869996678,-199.92750196299463A200,200,0,1,1,-45.70869966264086,194.70674044611422L-15.12042647853628,78.55808489969176A80,80,0,1,0,5.384603869996678,-79.81858205432628Z"
-              fill="#F17105"
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-            />
-          </g>
-          <g>
-            <path
-              d="M-56.122822121251694,191.9641342468596A200,200,0,0,1,-5.384603869996658,-199.92750196299463L-5.384603869996688,-79.81858205432627A80,80,0,0,0,-25.53454893714712,75.81547870043715Z"
-              fill="#2E4057"
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-            />
-          </g>
           <g
             transform="translate(-50,-50)"
           >
@@ -63,7 +47,7 @@ exports[`matches a snapshot 1`] = `
               transform="translate(15,65)"
             >
               <path
-                d="M0,0 A40,40 10 0,0 65,0"
+                d="M0,0 A40,0 10 0,0 65,0"
                 fill="none"
                 stroke="black"
                 strokeWidth={5}
@@ -72,35 +56,6 @@ exports[`matches a snapshot 1`] = `
           </g>
         </g>
       </svg>
-    </div>
-    <div>
-      <span
-        style={
-          Object {
-            "color": "#2E4057",
-            "fontSize": 20,
-            "fontWeight": "normal",
-          }
-        }
-      >
-        46
-        % 
-        Unhappy
-      </span>
-       / 
-      <span
-        style={
-          Object {
-            "color": "#F17105",
-            "fontSize": 20,
-            "fontWeight": "normal",
-          }
-        }
-      >
-        54
-        % 
-        Happy
-      </span>
     </div>
   </div>
   <div
@@ -116,10 +71,10 @@ exports[`matches a snapshot 1`] = `
       Basically, there's an IFTTT applet triggering a web hook action which sends all the tweets in London to the particular Webtask URL. Webtask then serializes the tweet data and stores it in an ElasticSearch index.
     </p>
     <p>
-      Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contact text analyzation service and updates data in ElasticSearch.
+      Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contacts text analyzation service and updates data in ElasticSearch with its output.
     </p>
     <p>
-      Finally, there's a Webtask serving as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
+      Finally, there's a Webtask acting as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
     </p>
     <h4>
       Technologies used:
@@ -188,7 +143,15 @@ exports[`matches a snapshot 1`] = `
       >
         author
       </a>
-       ][ code ]
+       ][ 
+      <a
+        href="https://github.com/stepnivlk/london-o-meter"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        code
+      </a>
+       ]
     </p>
   </div>
 </div>

@@ -13,10 +13,10 @@ const Info = () => (
       Webtask then serializes the tweet data and stores it in an ElasticSearch index.
     </p>
     <p>
-      Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contact text analyzation service and updates data in ElasticSearch.
+      Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contacts text analyzation service and updates data in ElasticSearch with its output.
     </p>
     <p>
-      Finally, there's a Webtask serving as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
+      Finally, there's a Webtask acting as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
     </p>
     <h4>Technologies used:</h4>
     <p><a href='http://ifttt.com/' target='_blank' rel='noopener noreferrer'>IFTTT</a></p>

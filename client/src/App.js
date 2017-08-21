@@ -48,7 +48,6 @@ class App extends Component<{}, State> {
     this.fitParentContainer();
     fetchData()
       .then(data => {
-        console.log(data)
         const serializedData = serializeData(data.londonHapiness)
         const arcs = pie().value(item => item.value)(serializedData)
 

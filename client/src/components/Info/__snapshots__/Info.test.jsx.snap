@@ -14,10 +14,10 @@ exports[`matches a snapshot 1`] = `
     Basically, there's an IFTTT applet triggering a web hook action which sends all the tweets in London to the particular Webtask URL. Webtask then serializes the tweet data and stores it in an ElasticSearch index.
   </p>
   <p>
-    Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contact text analyzation service and updates data in ElasticSearch.
+    Then there's a scheduled Webtask action which processes batches of tweets from an ElasticSearch, contacts text analyzation service and updates data in ElasticSearch with its output.
   </p>
   <p>
-    Finally, there's a Webtask serving as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
+    Finally, there's a Webtask acting as an API for this React + D3.js client which aggregates data from ElasticSearch and serves it as a JSON.
   </p>
   <h4>
     Technologies used:
@@ -86,7 +86,15 @@ exports[`matches a snapshot 1`] = `
     >
       author
     </a>
-     ][ code ]
+     ][ 
+    <a
+      href="https://github.com/stepnivlk/london-o-meter"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      code
+    </a>
+     ]
   </p>
 </div>
 `;
