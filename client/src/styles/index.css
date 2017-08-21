@@ -30,7 +30,8 @@ html {
 .Info {
   text-align: center;
   background-color: #f3e8d8;
-  height: 550px;
+  display: block;
+  overflow: auto;
   padding: 20px;
 }
 

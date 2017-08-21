@@ -3,7 +3,7 @@
 exports[`matches a snapshot 1`] = `
 <svg
   fontFamily="Helvetica"
-  height="90%"
+  height={100}
   width="100%"
 >
   <g

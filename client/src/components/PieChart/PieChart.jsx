@@ -58,7 +58,7 @@ const PieChart = ({
   <svg
     key="svg"
     width="100%"
-    height="90%"
+    height={height}
     fontFamily="Helvetica"
   >
     <g transform={`translate(${width / 2},${height / 2})`}>

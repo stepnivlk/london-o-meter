@@ -20,7 +20,7 @@ exports[`matches a snapshot 1`] = `
     >
       <svg
         fontFamily="Helvetica"
-        height="90%"
+        height={null}
         width="100%"
       >
         <g
@@ -133,7 +133,6 @@ exports[`matches a snapshot 1`] = `
         D3.js
       </a>
     </p>
-    <br />
     <p>
       [ 
       <a

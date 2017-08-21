@@ -25,7 +25,6 @@ const Info = () => (
     <p><a href='https://uclassify.com/' target='_blank' rel='noopener noreferrer'>uClassify</a></p>
     <p><a href='https://facebook.github.io/react/' target='_blank' rel='noopener noreferrer'>React</a></p>
     <p><a href='https://d3js.org/' target='_blank' rel='noopener noreferrer'>D3.js</a></p>
-    <br />
     <p>[ <a href='https://github.com/stepnivlk/' target='_blank' rel='noopener noreferrer'>author</a> ][ <a href='https://github.com/stepnivlk/london-o-meter' target='_blank' rel='noopener noreferrer'>code</a> ]</p>
   </div>
 );
