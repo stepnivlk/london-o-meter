@@ -27,11 +27,11 @@ A collection of 3 Webtasks and React client which together forms Twitter data mi
 * esIndex - Specific ElasticSearch index we want to read/write a data
 
 ### TODO
-- [ ] tests
+- [ ] Add tests
 
-- [ ] flow
+- [ ] Add Flow
 
-- [ ] deployment script
+- [ ] Deployment script
 
 ## Client
 Simple React + D3.js app
