@@ -35,5 +35,13 @@ A collection of 3 Webtasks and React client which together forms Twitter data mi
 
 ## Client
 Simple React + D3.js app
+
+### Development
+#### Run tests
+`yarn test`
+
+#### Run Flow type checks
+`yarn flow`
+
 ### Deployment
 Zero configuration deployment to [heroku](https://blog.heroku.com/deploying-react-with-zero-configuration)
