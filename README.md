@@ -1,6 +1,6 @@
 # london-o-meter
 
-Have you ever wandered how much are people happy? Now we can measure it!
+Have you ever wondered how much are people happy? Now we can measure it!
 
 A collection of 3 Webtasks and React client which together forms Twitter data mining, analyzing and visualizing service.
 
